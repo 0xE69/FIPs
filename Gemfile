@@ -7,12 +7,12 @@ source "https://rubygems.org"
 #     bundle exec jekyll serve
 #
 
-gem "jekyll"
+gem "jekyll", ">= 4.2.2"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "jekyll-theme-basically-basic", "~> 1.4.5"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.11"
+  gem "jekyll-feed", "~> 0.17", ">= 0.17.0"
 end
